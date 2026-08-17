@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+chdir ("java_code");
+
+if ($ARGV[0] eq "") 
+{
+	system("java StatMaker 1\n");
+}
+else
+{
+	system("java StatMaker ".$ARGV[0]."\n");
+}
+

@@ -1,0 +1,14 @@
+# Paper-like augmentation recipe.
+photometric_augmentation.augment_color_swap = False
+photometric_augmentation.augment_hue_shift = True
+photometric_augmentation.augment_brightness = True
+photometric_augmentation.augment_contrast = True
+photometric_augmentation.augment_gaussian_noise = True
+photometric_augmentation.max_bound_gaussian_noise = 0.05
+photometric_augmentation.augment_intensity_scale = True
+
+geometric_augmentation.augment_flip_left_right = True
+geometric_augmentation.augment_flip_up_down = False
+geometric_augmentation.augment_scale = True
+geometric_augmentation.augment_rotation = True
+geometric_augmentation.max_rotation_deg = 10

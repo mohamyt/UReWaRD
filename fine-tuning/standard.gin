@@ -1,0 +1,11 @@
+# Standard RGB dataset augmentation.
+photometric_augmentation.augment_color_swap = True
+photometric_augmentation.augment_hue_shift = True
+photometric_augmentation.augment_brightness = True
+photometric_augmentation.augment_contrast = True
+
+geometric_augmentation.augment_flip_left_right = True
+geometric_augmentation.augment_flip_up_down = False
+geometric_augmentation.augment_scale = True
+geometric_augmentation.augment_rotation = True
+geometric_augmentation.max_rotation_deg = 10
